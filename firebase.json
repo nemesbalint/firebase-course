@@ -1,0 +1,17 @@
+{
+  "hosting": {
+    "site": "fir-course-20231214",
+    "public": "dist/firebase-course/browser",
+    "ignore": [
+      "firebase.json",
+      "**/.*",
+      "**/node_modules/**"
+    ],
+    "rewrites": [
+      {
+        "source": "**",
+        "destination": "/index.html"
+      }
+    ]
+  }
+}
